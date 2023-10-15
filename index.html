@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otwock</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Strona Otwocka</h1>
+    </header>
+    <main>
+        <!-- To jest komentarz -->
+        <section>
+            <h2 class="important-header">O Otwocku słów kilka:</h2>
+            
+            <div class="photo"><img class= "main-image" src="panorama.jpg" alt="Otwock, widok z lotu ptaka" />
+                <p class ="initial-text">Otwock, gdzie ptaki budzą dusze śpiewem, a rzeka Świder tańczy z zachodem słońca. Miejsce, gdzie historia i nowoczesność splatają się w jedno. To miasto pełne magii, uczucia, korzeni i przyszłości. Otwock, gdzie serca biją zgodnie z jego rytmem.</p>
+            </div>
+        </section>
+        <section>
+            <h2 class="important-header">Znani ludzie z Otwocka:</h2>
+            <ul>
+                <li><a href="https://pl.wikipedia.org/wiki/Micha%C5%82_Elwiro_Andriolli">Michał Elwiro Andriolli</a></li>
+                <li><a href="https://pl.wikipedia.org/wiki/Julian_Tuwim">Julian Tuwim</a></li>
+                <li><a href="https://pl.wikipedia.org/wiki/Jerzy_Waldorff">Jerzy Waldorff</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="important-header">Nadchodzące wydarzenia w Otwocku:</h2>
+            <table>
+                <tr>
+                    <th>Wydarzenie</th>
+                    <th>Data rozpoczęcia</th>
+                    <th>Data zakończenia</th>
+                </tr>
+                <tr>
+                    <td>Wernisaż Malarstwa "Kolory Otwocka"</td>
+                    <td>20.09.2023</td>
+                    <td>22.09.2023</td>
+                </tr>
+                <tr>
+                    <td>Koncert na Placu Sienkiewicza</td>
+                    <td>05.11.2023</td>
+                    <td>06.11.2023</td>
+                </tr>
+                <tr>
+                    <td>Filmowe Wieczory w Parku</td>
+                    <td>12.07.2023</td>
+                    <td>14.07.2023</td>
+                </tr>
+                <tr>
+                    <td>Kurs Fotografii Krajobrazowej</td>
+                    <td>18.10.2023</td>
+                    <td>22.10.2023</td>
+                </tr>
+                <tr>
+                    <td>Otwock Festiwal Kultury</td>
+                    <td>25.08.2023</td>
+                    <td>28.08.2023</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2 class="important-header">Kontakt z Otwockiem:</h2>
+            <form action="/some/relative/url" method="post">
+                <label for="firstname">Twoje imię: </label>
+                <input type="text" name="firstname" id="firstname" required />
+                <br />
+                <label for="city">Skąd jesteś? (miasto):</label>
+                <select name="city">
+                    <option value="value2">Otwock</option>
+                    <option value="value1">Warszawa</option>
+                    <option value="value3">Inne</option>
+                </select>
+                <br />
+                <label for="message">Napisz swoje pytanie lub uwagi odnośnie Otwocka:</label>
+                <textarea cols="20" rows="4" name="message" minlength="5" maxlength="500" required></textarea>
+                <br />
+                <button type="submit">Wyślij wiadomość</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>autor: Przemysław Włodarczyk</p>
+        <p>rok stworzenia: 2023</p>
+    </footer>
+</body>
+</html>
